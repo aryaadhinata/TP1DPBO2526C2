@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Kotak form tambah/update */
+.form-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.form-box button,
+.btn-batal {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #2c7be5;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-batal {
+    background-color: #888;
+    margin-left: 10px;
+}
+
+/* Tabel daftar penayangan */
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c7be5;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.kolom-aksi a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #2c7be5;
+}
+
+.kolom-aksi a:last-child {
+    color: #d9534f;
+}
+
+/* Preview gambar (di form edit maupun di tabel) */
+.preview-kecil {
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.ket-gambar {
+    font-size: 13px;
+    color: #555;
+    margin-top: 6px;
+}
+
+.form-box input[type="file"] {
+    padding: 4px 0;
+    border: none;
+}
