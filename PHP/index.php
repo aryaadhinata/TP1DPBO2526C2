@@ -11,8 +11,9 @@ if (!is_dir($folderUpload)) {
 // Inisialisasi data awal (hanya sekali, saat session baru dibuat)
 if (!isset($_SESSION['daftarPenayangan'])) {
     $_SESSION['daftarPenayangan'] = [
-        new Penayangan("Avengers: Endgame", "2023-12-01", "19:00", "Studio 1", 50000, ""),
-        new Penayangan("Spider-Man: No Way Home", "2023-12-02", "20:00", "Studio 2", 60000, ""),
+        // gambarnya belum ke load
+        new Penayangan("Avengers: Endgame", "2023-12-01", "19:00", "Studio 1", 50000, "Asset/6aa5786437a18_AvengersDoomsday.jpg"),
+        new Penayangan("Spider-Man: No Way Home", "2023-12-02", "20:00", "Studio 2", 60000, "Asset/6aa57885c085b_SpidermanBrandNewDayPoster.jpg"),
     ];
 }
 
@@ -149,7 +150,7 @@ if ($aksi === 'edit' && isset($_GET['index'])) {
                 <input type="number" name="hargaTiket"
                     value="<?php echo $dataEdit ? $dataEdit->getHargaTiket() : ''; ?>" required>
 
-                <label>Gambar Poster (file disimpan lokal di folder uploads/)</label>
+                <label>Gambar Poster (file disimpan lokal di folder Asset/)</label>
                 <input type="file" name="gambar" accept="image/*" <?php echo $dataEdit ? '' : 'required'; ?>>
                 <?php if ($dataEdit && $dataEdit->getGambar()): ?>
                 <p class="ket-gambar">
