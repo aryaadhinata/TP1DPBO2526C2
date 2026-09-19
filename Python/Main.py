@@ -10,7 +10,7 @@ def tambah_penayangan():
     tanggal = input("Tanggal (YYYY-MM-DD) : ")
     jam = input("Jam (HH:MM)          : ")
     studio = input("Studio               : ")
-    harga_tiket = int(input("Harga Tiket  : "))
+    harga_tiket = int(input("Harga Tiket          : "))
 
     # Membuat object Penayangan baru dan menambahkannya ke dalam list
     penayangan_baru = Penayangan(judul_film, tanggal, jam, studio, harga_tiket)
