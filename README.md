@@ -1,7 +1,7 @@
 # TP1DPBO2526C2 — Pengelolaan Penayangan Bioskop
 
 ```
-Saya Mohammad Arya Dhinata dengan NIM 2504992 mengerjakan kuis 1 dalam mata kuliah Desain 
+Saya Mohammad Arya Dhinata dengan NIM 2504992 mengerjakan Tugas Praktikum 1 dalam mata kuliah Desain 
 Pemrograman Berbasis Objek untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti 
 yang di spesifikasikan. Aamin
 ```
